@@ -1,0 +1,72 @@
+body {
+background-color: #000000;
+
+
+
+
+}
+.flex-cont-main {
+
+display: flex;
+align-items: center;
+align-content: center;
+justify-content: center;
+flex-direction: column;
+height: 100vh;
+width: 100vw;
+
+
+}
+
+.btn-cont{
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  flex-direction: column;
+
+
+
+
+}
+
+
+.btn {
+outline: 0px;
+background-color: #efef0f;
+box-shadow: 0px;
+margin-top: 15px;
+border:0px;
+border-radius: 15px;
+transition: all .1s;
+}
+
+
+.btn.pri-cta {
+
+width: 40vw;
+height: 50px;
+
+
+}
+
+
+.btn.sec-cta {
+  width: 25vw;
+  height: 40px;
+background-color: #000000;
+border: solid 2px #efef0f;
+color:  #efef0f;
+}
+
+
+.hero-main-art {
+display: inline-block;
+height: 80vh;
+width: auto;
+margin:0px;
+
+
+
+
+}
