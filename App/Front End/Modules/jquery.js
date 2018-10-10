@@ -1,10 +1,14 @@
 $( function() {
    var state = true;
    $( ".pri-cta" ).on( "click", function() {
-     if ( state ) {
+   $(".img-cont").effect("drop");
+     $(".btn-cont").fadeOut();
+
        $( "body" ).animate({
-         backgroundColor: "#ffffff"
+         backgroundColor: "#DA1F26"
        }, 500 );
-     }
+
+
+
    });
  } );

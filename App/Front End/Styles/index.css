@@ -33,16 +33,19 @@ width: 90vw;
   justify-content: center;
   flex-direction: column;
 
-
+transform: translateY(100%);
 
 
 }
 
 
 .hero-main-art {
+  position: absolute;
+  left: 35%;
+  transform: rotateX(-50%);
 display: inline-block;
 height: auto;
-width: 50vw;
+width: 30vw;
 margin:0px;
 animation-name: fadeInDown;
 animation-duration: 0.5s;
