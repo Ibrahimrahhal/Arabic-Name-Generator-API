@@ -11,7 +11,6 @@ app.get("/", (req,res)=>{
 
   
 
-
 res.json(obj1);
 
 });
