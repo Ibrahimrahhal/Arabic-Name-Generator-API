@@ -9,6 +9,8 @@ var obj1= new Random();
 
 app.get("/", (req,res)=>{
 
+  
+
 
 res.json(obj1);
 
